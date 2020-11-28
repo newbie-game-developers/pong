@@ -18,5 +18,6 @@ void Display::run() {
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+    glfwTerminate();
     
 }
