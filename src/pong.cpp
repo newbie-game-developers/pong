@@ -1,6 +1,6 @@
 #include "pong.h"
 
 int main() {
-    Display display;
-    display.run();
-}
+    System system;
+    system.init();
+ }

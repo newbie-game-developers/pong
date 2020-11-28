@@ -10,7 +10,7 @@ private:
 
 
 public:
-void run();
+GLFWwindow *create_window();
 };
 
 #endif

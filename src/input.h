@@ -1,7 +1,7 @@
 #ifndef INPUT_H
 #define INPUT_H
 
-class InputClass {
+class Input {
 private:
 
 public:
