@@ -7,7 +7,7 @@
 
 class Display {
 private:
-
+void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 
 public:
 GLFWwindow *create_window();

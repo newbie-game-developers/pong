@@ -16,6 +16,12 @@ GLFWwindow *Display::create_window() {
         
     glfwMakeContextCurrent(win);
     glViewport(0,0,800,600);
+    //Todo: Fix this to change window dimensions when user resizes window.
+    //glfwSetFramebufferSizeCallback(win, framebuffer_size_callback);
     return win;
 
+}
+
+void Display::framebuffer_size_callback(GLFWwindow *window, int width, int height) {
+    glViewport(0, 0, width, height);
 }

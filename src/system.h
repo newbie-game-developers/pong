@@ -6,15 +6,19 @@
 #include <iostream>
 
 #include "display.h"
+#include "input.h"
 
 class System {
     private:
     //objects
     GLFWwindow *window;
-    Display display;
+    Display *display = new Display();
+    Input *input = new Input();
 
     //functions
     void run();
+    void set_input_splash(Input *input);
+    void set_input_game(Input *input);
 
 
     public:
