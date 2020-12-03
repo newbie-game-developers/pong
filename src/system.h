@@ -17,8 +17,7 @@ class System {
 
     //functions
     void run();
-    void set_input_splash(Input *input);
-    void set_input_game(Input *input);
+
 
 
     public:

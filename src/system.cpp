@@ -1,7 +1,7 @@
 #include "system.h"
 
 void System::init() {
-    window = display->create_window();
+    window = display->create_window(800,600);
     run();
 }
 
@@ -16,10 +16,3 @@ void System::run() {
     glfwTerminate();
 }
 
-void System::set_input_splash(Input *input) {
-    //Polymorph derived Input to Class ScreenSplash
-}
-
-void System::set_input_game(Input *input) {
-    //Polymorph derivced Input to Class ScreenGame
-}
