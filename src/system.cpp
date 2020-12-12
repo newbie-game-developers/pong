@@ -14,5 +14,7 @@ void System::run() {
         glfwPollEvents();
     }
     glfwTerminate();
+    delete display;
+    delete input;
 }
 

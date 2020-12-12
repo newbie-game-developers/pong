@@ -4,6 +4,9 @@
 Input::Input() {
     inputP = screenSplash;
 }
+Input::~Input() {
+    
+}
 
 void Input::process_input(GLFWwindow *window) {
     inputP->process_input(window);
