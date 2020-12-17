@@ -5,6 +5,9 @@ Input::Input() {
     inputP = screenSplash;
 }
 Input::~Input() {
+    inputP = nullptr;
+    delete screenSplash;
+    delete screenGame;
     
 }
 
